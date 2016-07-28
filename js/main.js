@@ -32,6 +32,11 @@ $('#subscribe').submit(function(event){
      alert('Please enter a valid email address.');
    }
  });
+  $(function() {
+     $("a[href^='#']").not("a[href='#']").click(function() {
+        $("#"+$(this).attr("href").slice(1)+"").focus();
+     });
+  });
 });
 
 
