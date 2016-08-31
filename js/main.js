@@ -34,6 +34,21 @@ $('#subscribe').submit(function(event){
         $("#"+$(this).attr("href").slice(1)+"").focus();
      });
   });
+
+
+    var counter = 0;
+
+    $('.add-cart-button').click(function() {
+    counter++;
+
+    $('#counter').text(counter);
+    $('#counter').show();
+
+
+
+
+    });
+
 });
 
 
