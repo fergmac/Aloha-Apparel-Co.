@@ -156,6 +156,8 @@ h3 {
 	color: #e2574c;
 	font-family: 'playfair_display';
 }
+
+
 /***** header *****/
 #main[tabindex="-1"]:focus {	/* Prevent the default blue outline... */
 								/* ID selector forces high specificity! */
@@ -295,12 +297,12 @@ h3 {
 	justify-content: center;
 }
 
- .hc-styles-txt-box {
- 	height: 100%;
- 	min-width: 480px;
- 	padding-top: 4rem;
- 	padding-bottom: 4rem;	
- }
+.hc-styles-txt-box {
+	height: 100%;
+	min-width: 480px;
+	padding-top: 4rem;
+	padding-bottom: 4rem;	
+}
 
 .hc-style-title {
 	margin-bottom: 2rem;
@@ -316,6 +318,8 @@ h3 {
 
 .catalog-container {	
 	display: block;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .catalog-boxes {
@@ -351,6 +355,13 @@ h3 {
 .carousel-cell {
  width: 100vw;
  text-align: center;
+
+}
+
+.slider-image {
+	height: 100%;
+	width: auto;
+
 }
 
 .catalog-men {
@@ -442,6 +453,7 @@ h3 {
 	background-repeat: no-repeat;
 	background-size: auto, auto auto;
 	padding: 2rem 0;
+	margin-bottom: .5rem;
 }
 
 
@@ -621,7 +633,8 @@ a:hover {
 	/********* products **************/
 
 	.carousel-cell {
-	  width: 50vw;
+	 width: 50vw;
+	
 	}
 
 	/********* footer *************/

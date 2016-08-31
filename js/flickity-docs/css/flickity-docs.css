@@ -1207,8 +1207,8 @@ code .flickity { text-decoration: underline; }
 }
 
 .carousel-cell {
-  width: 66%;
-  height: 160px;
+  width: 20%;
+  height: 50px;
   margin-right: 10px;
   margin-bottom: 10px;
   background: #8C8;
