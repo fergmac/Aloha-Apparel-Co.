@@ -473,7 +473,7 @@ h3 {
 /**************** sign *****************/
 
 .sign-up-image {
-	height: 300px;
+	height: 325px;
 	background:	
 				linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.1) 100%),
 				url(images/wave-bkgd.jpg) bottom;
@@ -507,14 +507,14 @@ h3 {
 
 .subscribe {
 	width: 100%;
-	line-height: 11.5rem;
+	line-height: 12rem;
 	position: absolute;
 }
 
 .input-box {
 	border-radius: 2rem;
 	border: 0;
-	padding: .8rem .8rem;
+	padding: .9rem .8rem;
 	padding-right: 14rem;
 	margin-bottom: 2rem;
 }
@@ -525,7 +525,7 @@ h3 {
 	border-radius: 2rem;
 	background-color: #e2574c;	
 	position: absolute;
-	margin: 4.8rem -7.6rem;
+	margin: 5rem -7.8rem;
 	padding: .65rem 2.1rem;
 }
 
@@ -717,10 +717,7 @@ a:hover {
 		font-size: 16px;
 	}
 	
-	/*.hc-styles-text-box {
-		width: 720px;
-	}*/
-
+	
 	.carousel-cell {
 		width: 25vw;
 	}
