@@ -143,6 +143,7 @@ strong {
 p {
 	color: white;
 	margin: 2% 2%;
+   font-size: 18px;
 }
 
 h2 {
@@ -434,13 +435,16 @@ h3 {
 	padding-bottom: 4rem;
 }
 
+
 .products {
-	font-size: 18px
+	font-size: 25px;
+	margin: 1rem 0;
 }
 
 .prod-txt {
 	text-transform: uppercase;
 	color: #969696;
+	font-size: 14px
 }
 
 /**************** sign *****************/
@@ -467,7 +471,8 @@ h3 {
 }
 
 .updated-txt {
-
+	max-width: 75%;
+ 	margin: 0 auto;
 	line-height: 1.7;
 	position: relative;
 	top: 60px;
@@ -488,6 +493,7 @@ h3 {
 	border: 0;
 	padding: .8rem .8rem;
 	padding-right: 14rem;
+	margin-bottom: 2rem;
 }
 
 .submit-btn {
@@ -496,7 +502,7 @@ h3 {
 	border-radius: 2rem;
 	background-color: #e2574c;	
 	position: absolute;
-	margin: 4.8rem -7.8rem;
+	margin: 4.8rem -7.6rem;
 	padding: .65rem 2.1rem;
 }
 
@@ -561,6 +567,7 @@ a:hover {
 	color:white;
 	padding-top: 1rem;
 	margin: 0 auto;	
+	font-size: 18px;
 }
 
 
