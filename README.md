@@ -1,15 +1,30 @@
-This time around I had some real break throughs with flex box, and a better understanding of why mobile first is so important.
+#Aloha Website
 
-I had some trouble with the media queries. I was unable to get them to work correctly in Chrome. Unable to recognize the under 600px settings. However everything looked great in Safari and Opera. 
+![Alt text](./screenshots/aloha-screenshot.png "Aloha")
 
-also i was unable to get my submit button to align correctly in Chrome. Though it was fine in Safari and Opera.
+##Project Description:
 
-I'm getting a better hang of using dev tools on my own website to try out fixes for problems that appear which is better than bouncing back and forth between sublime and the browser.
+*responsively designed using a mobile-first approach
 
-Some of the basic javascript principles are starting to sink in and the jQuery is great!
+*optimized for 3 screen sizes: mobile, min-width: 600px and min-width: 1240px
+
+*flexboxed
+
+*Incorporate “smooth scrolling” into the menu 
+
+*Incorporate Flickity image slider using a jQuery plugin for the featured product area 
+
+*Incorporate a fixed header
+
+*Update the the cart icon in the top-right corner of the header every time the user clicks the “Add to Cart” button for a product
+
+Going back over the Aloha project was very interesting, I realized how important it is to organize and comment code. It makes a big difference when try to go back and solve specific issues. 
+
+I was able to read back through the code including the Javascript/Jquery with a better understanding of how everything works. 
+
+I also think that my eye for what looks good on the screen has improved and i'm able to see the finer details of the design comps and bring those to life in my code.
 
 
-Also I validated my html and css and took care of any errors, but i also had two Warnings "section lacks heading. Consider using h2-h6 elements" i left them as is for now not sure how big of a deal that is?
 
 
 
