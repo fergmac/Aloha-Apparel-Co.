@@ -1,162 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Aloha</title>
-		<link rel="stylesheet" type="text/css" href="reset.css"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="js/flickity-docs/flickity.css" media="screen">
-		<link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
+<head>
+	<meta charset="utf-8">
+	<title>Aloha</title>
+	<link rel="stylesheet" type="text/css" href="reset.css"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="js/flickity-docs/flickity.css" media="screen">
+	<link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 	<a class="screen-reader-text" href="#main">Skip to content</a>
 
 	
-<!--///////////////////// header //////////////////////-->
-	<div class="header-container">
+	<!--///////////////////// header //////////////////////-->
+	
 	<header class="header">	
-			<div class="aloha-container">
-				<img class="aloha-logo" src="images/aloha-logo.svg" alt="aloha" height="60">
-			</div>
-			<div class=btn-right>	
-				<img class="cart-btn" src="images/cart-icon.svg" alt="cart" height="60">
-			</div>
-			<nav class="nav-bar">
-				<ul class="nav-bar-items">
-					<li><a href="#about" class="nav-bar-font smoothScroll">about</a></li>
-					<li><a href="#shop" class="nav-bar-font smoothScroll">shop</a></li>
-					<li><a href="#featured" class="nav-bar-font smoothScroll">featured</a></li>
-					<li><a href="#updates" class="nav-bar-font smoothScroll">updates</a></li> 
-				</ul>
-			</nav>
+		<div class="aloha-container">
+			<img class="aloha-logo" src="images/aloha-logo.svg" alt="aloha" height="60">
+		</div>
+		<div class="aloha-cart-button">	
+			<img class="cart-btn" src="images/cart-icon.svg" alt="cart" height="60">
+			<span id="counter"></span>
+		</div>
+		<nav class="nav-bar">
+			<ul class="nav-bar-items">
+				<li><a href="#about" class="nav-bar-font smoothScroll">about</a></li>
+				<li><a href="#shop" class="nav-bar-font smoothScroll">shop</a></li>
+				<li><a href="#featured" class="nav-bar-font smoothScroll">featured</a></li>
+				<li><a href="#updates" class="nav-bar-font smoothScroll">updates</a></li> 
+			</ul>
+		</nav>
 	</header>
-	</div>
+	<div class="header-push"></div>
 
 	<!-- ///////////////// banner ///////////////////// -->
 
 	<section class="banner">
-			<div class="banner-txt">
-				<p class="banner-text-top">New Collection</p>
-				<p class="banner-text-bottom">Spring/Summer 2016</p>
-			</div>	
+		<div class="banner-txt">
+			<p class="banner-text-top">New Collection</p>
+			<p class="banner-text-bottom">Spring/Summer 2016</p>
+		</div>	
 	</section>
 
 	<!-- ///////////////// styles ////////////////////// -->
 
-	<section class="HC-styles-box" id="about">
-		<div class="HC-styles-txt">
-		<h2 class="HC-style-title"><em>Hand-Crafted</em> <strong>Styles</strong></h2>
-		<p class="HC-style-txt">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
+	<section class="hc-styles-box" id="about">
+		<div class="hc-styles-txt-box">
+			<h2 class="hc-style-title"><em>Hand-Crafted</em> <strong>Styles</strong></h2>
+			<p class="hc-style-txt">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
 		</div>
 	</section>
 
 	<!--///////////////////// catalog //////////////////-->
-		<main id="main" class="site-main" tabindex="-1">
-			<section class="catalog-container" id="shop">
-				<div class="catalog-boxes">
-					<div class="catalog-men"><span class="catalog-name">Men's</span></div>
-					<div class="catalog-trends"><span class="catalog-name">Trends</span></div>
-					<div class="catalog-glasses"><span class="catalog-name">Glasses</span></div>
-					<div class="catalog-sale"><span class="catalog-name">Sale</span></div>
-					<div class="catalog-bags"><span class="catalog-name">Bags</span></div>
-					<div class="catalog-women"><span class="catalog-name">Women</span></div>
-				</div>
-			</section>
+	<main id="main" class="site-main" tabindex="-1">
+		<section class="catalog-container" id="shop">
+			<div class="catalog-boxes">
+				<div class="catalog-men"><span class="catalog-name">Men's</span></div>
+				<div class="catalog-trends"><span class="catalog-name">Trends</span></div>
+				<div class="catalog-glasses"><span class="catalog-name">Glasses</span></div>
+				<div class="catalog-sale"><span class="catalog-name">Sale</span></div>
+				<div class="catalog-bags"><span class="catalog-name">Bags</span></div>
+				<div class="catalog-women"><span class="catalog-name">Women</span></div>
+			</div>
+		</section>
 		
-	<!--///////////////////// products ///////////////// -->
-	
-	<section>
-		<div class="product-title" id="featured">
-		<h2><em>Most-Loved</em> <strong>Products</strong></h2>
+		<!--///////////////////// products ///////////////// -->
+
+		<section>
+			<div class="product-title" id="featured">
+				<h2><em>Most-Loved</em> <strong>Products</strong></h2>
 				<div class="product-list carousel" data-flickity  data-flickity-options='{ "cellAlign": "left", "contain": true }'>
-					<div>
-						<img class="carousel-cell slider-image" src="images/stretch-knit-dress.jpg" alt="dress">
+					<div class="carousel-cell">
+						<img class="slider-image" src="images/stretch-knit-dress.jpg" alt="dress">
 						<p class="prod-txt">Dresses</p>
 						<h3 class="products">Stretch Knit Dress</h3>
 						<p class="prod-txt">$169.00</p>
+						<button class="add-cart-button">Add To Cart</button>
 					</div>
-					<div>
-						<img class="carousel-cell slider-image" src="images/cotton-blue-shirt.jpg" alt="shirt">
+					<div class="carousel-cell">
+						<img class="slider-image" src="images/cotton-blue-shirt.jpg" alt="shirt">
 						<p class="prod-txt">Shirts</p>
 						<h3 class="products">Cotton Blue Shirt</h3>
 						<p class="prod-txt">$89.00</p>
+						<button class="add-cart-button">Add To Cart</button>
 					</div>
-					<div>
-						<img class="carousel-cell slider-image" src="images/checked-stretch-dress.jpg" alt="dress">
+					<div class="carousel-cell">
+						<img class="slider-image" src="images/checked-stretch-dress.jpg" alt="dress">
 						<p class="prod-txt">Dresses</p>
 						<h3 class="products">Checked Stretch Dress</h3>
 						<p class="prod-txt">$129.00</p>
+						<button class="add-cart-button">Add To Cart</button>
 					</div>
-					<div>
-						<img class="carousel-cell slider-image" src="images/blue-hipster-backpack.jpg" alt="backpack">
+					<div class="carousel-cell">
+						<img class="slider-image" src="images/blue-hipster-backpack.jpg" alt="backpack">
 						<p class="prod-txt">Bags</p>
 						<h3 class="products">Blue Hipster Backpack</h3>
 						<p class="prod-txt">$69.00</p>
+						<button class="add-cart-button">Add To Cart</button>
 					</div>
-					<div>
-						
-						<img class="carousel-cell slider-image" src="images/demin-overall-shorts.jpg" alt="shorts">
+					<div class="carousel-cell">
+						<img class="slider-image" src="images/demin-overall-shorts.jpg" alt="shorts">
 						<p class="prod-txt">Denim</p>
 						<h3 class="products">Denim Overall Shorts</h3>
 						<p class="prod-txt">$89.00</p>
+						<button class="add-cart-button">Add To Cart</button>
 					</div>
-					<div>
-						<img class="carousel-cell slider-image" src="images/pink-dotted-dress.jpg" alt="dress">
+					<div class="carousel-cell">
+						<img class="slider-image" src="images/pink-dotted-dress.jpg" alt="dress">
 						<p class="prod-txt">Dresses</p>
 						<h3 class="products">Pink Dotted Dress</h3>
 						<p class="prod-txt">$99.00</p>
+						<button class="add-cart-button">Add To Cart</button>
 					</div>
-					<div>	
-						<img class="carousel-cell slider-image" src="images/blue-silk-dress.jpg" alt="dress">
+					<div class="carousel-cell">	
+						<img class="slider-image" src="images/blue-silk-dress.jpg" alt="dress">
 						<p class="prod-txt">Dresses</p>
 						<h3 class="products">Blue Silk Dress</h3>
 						<p class="prod-txt">$119.00</p>
-						
+						<button class="add-cart-button">Add To Cart</button>					
 					</div>
-					<div>
-						<img class="carousel-cell slider-image" src="images/cotton-yellow-tshirt.jpg" alt="tshirt">
+					<div class="carousel-cell">
+						<img class="slider-image" src="images/cotton-yellow-tshirt.jpg" alt="tshirt">
 						<p class="prod-txt">Shirts</p>
 						<h3 class="products">Cotton Yellow Tshirt</h3>
 						<p class="prod-txt">$39.00</p>
+						<button class="add-cart-button">Add To Cart</button>
 					</div>
 				</div>
-		</div>
-	</section>
-	
-	<!--///////////////////// sign-up ////////////////////-->
+			</div>
+		</section>
 
-	<section class="sign-up-image" id="updates">
-		<div class="sign-up">
-		<h2 class="sign-up"><em>Sign-up for</em> <strong>Updates</strong></h2>
-		</div>
-		<p class="updated-txt">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
-		<div class="input-flex">
-			<form class="subscribe" id="subscribe">
-				<div class="sign-up-box">
-				<input type="email" class="input-box" name="email-address" placeholder="Your Email">
-				<input type="submit" class="submit-btn"  name="subscribe" value="Subscribe"/>
-				</div>
-			</form>
-		</div>
-	</section>
+		<!--///////////////////// sign-up ////////////////////-->
+
+		<section class="sign-up-image" id="updates">
+			<div class="sign-up">
+				<h2 class="sign-up"><em>Sign-up for</em> <strong>Updates</strong></h2>
+			</div>
+			<div class="updated-txt">
+			<p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+			</div>
+				<form class="subscribe" id="subscribe">
+					<div class="sign-up-box">
+						<input type="email" class="input-box" name="email-address" placeholder="Your Email">
+						<input type="submit" class="submit-btn"  name="subscribe" value="Subscribe">
+					</div>
+				</form>
+		</section>
 	</main>
 	<!--/////////////////// footer ///////////////////////-->
 
 	<footer class="footer">
 		<!-- <div class="container"> -->
-			<div class="contact-info">
-				<p>&copy; 2016 Aloha Apparel Co.</p>
+		<div class="contact-info">
+			<p>&copy; 2016 Aloha Apparel Co.</p>
 
-				<p>Powered by HTML and CSS.</p>
+			<p>Powered by HTML and CSS.</p>
 
-				<p class="phone">604-604-6040. <a class="email" href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></p>
-				
-				<div class="location">
+			<p class="phone">604-604-6040. <a class="email" href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></p>
+
+			<div class="location">
 				<p>1490 W Broadway</p>
 				<p>Vancouver, BC, Canada</p>
-				</div>
 			</div>
+<<<<<<< HEAD
 			<div class="social-container">
 						<ul class="social-list">
 						<li class="social-media"><i class="fa fa-facebook" aria-hidden="true"><span class="social-txt">Facebook</span></i></li>
@@ -167,11 +174,29 @@
 	               </ul>
 	        </div>
 	     <!-- </div> -->
+=======
+		</div>
+		<div class="social-container">
+			<ul class="social-list">
+				<li class="social-media"><i class="fa fa-facebook" aria-hidden="true"><span class="social-txt">Facebook</span></i></li>
+				<li class="social-media"><i class="fa fa-twitter" aria-hidden="true"><span class="social-txt">Twitter</span></i></li>
+				<li class="social-media"><i class="fa fa-instagram" aria-hidden="true"><span class="social-txt">Instagram</span></i></li>
+				<li class="social-media"><i class="fa fa-pinterest" aria-hidden="true"><span class="social-txt">Pinterest</span></i></li>
+				<li class="social-media"><i class="fa fa-google-plus" aria-hidden="true"><span class="social-txt">Google</span></i></li>
+			</ul>
+		</div>
+		<!-- </div> -->
+>>>>>>> master
 	</footer>
 
 	<!--///////////////// Javascript ////////////////////////-->
 
+<<<<<<< HEAD
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous" async></script>
+=======
+	<script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>  
+	
+>>>>>>> master
 
 	<script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>	
 

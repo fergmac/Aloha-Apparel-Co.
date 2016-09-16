@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function(){
   
 $(function() {
@@ -12,7 +9,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top-94
         }, 1000); // The number here represents the speed of the scroll in milliseconds
         return false;
       }
@@ -37,6 +34,21 @@ $('#subscribe').submit(function(event){
         $("#"+$(this).attr("href").slice(1)+"").focus();
      });
   });
+
+
+    var counter = 0;
+
+    $('.add-cart-button').click(function() {
+    counter++;
+
+    $('#counter').text(counter);
+    $('#counter').show();
+
+
+
+
+    });
+
 });
 
 
